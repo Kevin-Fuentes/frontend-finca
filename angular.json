@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "finca"
+    }
+  },
+  "defaultProject": "finca",
+  "cli": {
+    "analytics": "d211d470-4b37-418f-a57a-1abe887a950f"
+  }
 }

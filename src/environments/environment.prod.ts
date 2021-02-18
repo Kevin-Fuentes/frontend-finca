@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  url: 'https://warm-stream-99855.herokuapp.com/api/finca'
 };

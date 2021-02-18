@@ -1,0 +1,36 @@
+<div class="container">
+     <form autocomplete="off" #f="ngForm" (ngSubmit)="guardar(f)">
+         
+          <div class="form-group col-md-6">
+               <label for="Nombre">Nombre</label>
+               <input type="text" class="form-control" id="Nombre" placeholder="Nombre"
+               [(ngModel)]="finca.nombre"
+               #nombre="ngModel"
+               name="nombre"
+               >
+             </div>
+
+             <div class="form-group col-md-6">
+               <label for="Capataz">Capataz</label>
+               <input type="text" class="form-control" id="Capataz" placeholder="Capataz"
+               #capataz="ngModel"
+               [(ngModel)]="finca.capataz"
+               name="capataz"
+               >
+             </div>
+
+             <div class="form-group col-md-6">
+               <label for="numH">Numero hectareas</label>
+               <input type="text" class="form-control" id="numH" placeholder="Numero hectareas"
+               [(ngModel)]="finca.numH"
+               #numH="ngModel"
+               name="numH"
+               >
+             </div>
+
+<div class="form-group col-md-6">
+     <button class="btn btn-primary" type="submit" >Crear</button>
+</div>
+        </form>
+
+</div>
